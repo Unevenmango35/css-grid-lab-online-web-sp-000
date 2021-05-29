@@ -21,6 +21,15 @@ body {
 
 
 /* add the .bigItem class */
+
+.bigItem {
+  grid-area: 2 / 2 / 4 / 4;
+  height: 50%;
+  width: 50%;
+  justify-self: center;
+}
+
+/*complete
 .bigItem {
 
   grid-row-start: 2;
@@ -28,6 +37,8 @@ body {
     grid-column-start: 2;
     grid-column-end: 4;
 }
+*/
+
 /*short form
 .bigItem {
   grid-row: 2 / 4;
