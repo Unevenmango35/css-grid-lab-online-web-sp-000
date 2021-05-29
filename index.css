@@ -10,8 +10,8 @@ body {
   /* your properties here */
   display: grid; /*interpret all child elements of the parent to align to a grid*/
 
-  grid-template: repeat(4, 1fr) / repeat(3, 1fr)
-  grid-gap: 5px
+  grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+
 }
 
 .grid-item {
