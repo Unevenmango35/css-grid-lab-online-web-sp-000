@@ -9,7 +9,7 @@ body {
   width: 100vw;
   /* your properties here */
   display: grid; /*interpret all child elements of the parent to align to a grid*/
-  
+
   grid-auto-rows: 50px;
 }
 
